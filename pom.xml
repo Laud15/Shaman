@@ -50,6 +50,7 @@
             <artifactId>javafx-web</artifactId>
             <version>${javafx.version}</version>
         </dependency>
+
     </dependencies>
 
     <build>
@@ -79,7 +80,7 @@
                 </executions>
                 <configuration>
                     <!-- Cambia con il tuo main -->
-                    <mainClass>Shaman.MainApp</mainClass>
+                    <mainClass>shaman.MainApp</mainClass>
                 </configuration>
             </plugin>
         </plugins>
